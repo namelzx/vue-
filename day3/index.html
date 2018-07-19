@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>
+
+    </title>
+  </head>
+<style>
+   .tc{
+     background:bisque;
+   } 
+   
+</style>
+  <body>
+    <div id="app">
+      
+      <div :class='hc'>
+        {{title}}
+      </div>
+    </div>
+
+  </body>
+  <script src="../vue.js">
+  </script>
+  <script>
+    var app=new Vue({
+      el:"#app",
+      data:{
+        title:"测试",
+        hc:'tc'
+      }
+    })
+  </script>
+</html>
